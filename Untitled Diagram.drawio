@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2020-07-30T02:55:21.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" version="13.5.5" etag="J5S8OKEZhlghAJLvF3T1" type="github"><diagram id="VMOJu4vCoksK0ISoE6bC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-30T03:06:46.504Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="qmu3RUty727BkGDEcyj5" version="13.5.5" type="github">
+  <diagram id="VMOJu4vCoksK0ISoE6bC" name="Page-1">
+    <mxGraphModel dx="1240" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1hHynaqESgfFsW7f_2rh-21" value="odoo warehouse management flow" style="shape=table;childLayout=tableLayout;rowLines=0;columnLines=0;startSize=30;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="769" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="1hHynaqESgfFsW7f_2rh-22" value="s" style="swimlane;horizontal=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;fontStyle=1" vertex="1" parent="1hHynaqESgfFsW7f_2rh-21">
+          <mxGeometry y="30" width="769" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="1hHynaqESgfFsW7f_2rh-23" value="Sale" style="swimlane;connectable=0;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;" vertex="1" parent="1hHynaqESgfFsW7f_2rh-22">
+          <mxGeometry x="40" width="243" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="1hHynaqESgfFsW7f_2rh-24" value="Warehouse" style="swimlane;connectable=0;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;" vertex="1" parent="1hHynaqESgfFsW7f_2rh-22">
+          <mxGeometry x="283" width="243" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="1hHynaqESgfFsW7f_2rh-25" value="Shop" style="swimlane;connectable=0;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;" vertex="1" parent="1hHynaqESgfFsW7f_2rh-22">
+          <mxGeometry x="526" width="243" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="1hHynaqESgfFsW7f_2rh-26" value="Actor 2" style="swimlane;horizontal=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;" vertex="1" parent="1hHynaqESgfFsW7f_2rh-21">
+          <mxGeometry y="177" width="769" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="1hHynaqESgfFsW7f_2rh-27" value="" style="swimlane;connectable=0;startSize=0;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;" vertex="1" parent="1hHynaqESgfFsW7f_2rh-26">
+          <mxGeometry x="40" width="243" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="1hHynaqESgfFsW7f_2rh-28" value="" style="swimlane;connectable=0;startSize=0;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;" vertex="1" parent="1hHynaqESgfFsW7f_2rh-26">
+          <mxGeometry x="283" width="243" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="1hHynaqESgfFsW7f_2rh-29" value="" style="swimlane;connectable=0;startSize=0;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;" vertex="1" parent="1hHynaqESgfFsW7f_2rh-26">
+          <mxGeometry x="526" width="243" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="1hHynaqESgfFsW7f_2rh-30" value="Actor 3" style="swimlane;horizontal=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;" vertex="1" parent="1hHynaqESgfFsW7f_2rh-21">
+          <mxGeometry y="323" width="769" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="1hHynaqESgfFsW7f_2rh-31" value="" style="swimlane;connectable=0;startSize=0;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;" vertex="1" parent="1hHynaqESgfFsW7f_2rh-30">
+          <mxGeometry x="40" width="243" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="1hHynaqESgfFsW7f_2rh-32" value="" style="swimlane;connectable=0;startSize=0;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;" vertex="1" parent="1hHynaqESgfFsW7f_2rh-30">
+          <mxGeometry x="283" width="243" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="1hHynaqESgfFsW7f_2rh-33" value="" style="swimlane;connectable=0;startSize=0;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;" vertex="1" parent="1hHynaqESgfFsW7f_2rh-30">
+          <mxGeometry x="526" width="243" height="147" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
